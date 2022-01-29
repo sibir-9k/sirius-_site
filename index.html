@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Сириус</title>
+</head>
+
+<body>
+  <!-- header  -->
+  <div class="container-xl">
+    <header class="d-flex header">
+      <div class="header__logo">
+        <img src="./img/Logo.svg" alt="">
+      </div>
+      <form class="d-flex header__search">
+        <input class="form-control mr-2" type="search" placeholder="Поиск" aria-label="Search">
+      </form>
+      <div class="header__time-work">
+        <p>Режим работы</p>
+        <p>Пн-Пт с 8:00 - 18:00</p>
+      </div>
+      <div class="header__social">
+        <a href="#"><img src="./img/facebook.svg" alt=""></a>
+        <a href="#"><img src="./img/insta.svg" alt=""></a>
+        <a href="#"><img src="./img/VK.svg" alt=""></a>
+      </div>
+      <div class="header__adress">
+        <p>г. Москва</p>
+        <a href="tel: +74957772345">+7 (495) 777-2345</a>
+        <span>Заказать звонок</span>
+      </div>
+      <div class="header__adress">
+        <p>г. Ногинск</p>
+        <a href="tel: +74956004400">+7 (495) 600-4400</a>
+        <span>Заказать звонок</span>
+      </div>
+    </header>
+    <!-- menu -->
+    <nav class="nav__menu navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <button type="button" class="btn btn-danger">
+          <a class="navbar-brand" href="#"><img src="./img/menu.svg" alt="">Каталог</a>
+        </button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Скидки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Доставка и оплата</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Дилеры</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Магазины</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Магазины</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link__active" href="#">Честный знак</a>
+            </li>
+          </ul>
+          <div class="nav__icon">
+            <button type="button" class="btn btn-light nav__icon_favourite">
+              <img src="./img/favourite.svg" alt="">
+            </button>
+            <button type="button" class="btn btn-light nav__icon_shop">
+              <img src="./img/shop.svg" alt="">
+            </button>
+          </div>
+          <div class="nav__user">
+            <img src="./img/user.svg" alt="">
+            <p>Войти</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- promo -->
+    <section class="promo">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Каталог товаров</a></li>
+          <li class="breadcrumb-item"><a href="#">Спецодежда</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Спецодежда зимняя</li>
+        </ol>
+      </nav>
+      <h1 class="promo__title">Спецодежда Зимняя</h1>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="promo__btn  btn-outline-secondary">Спецодежда с заключением
+          Минпромторга</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Костюмы женские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Костюмы мужские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Костюмы сварщика</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Жилеты женские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Жилеты мужские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Жилеты зимние</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Брюки</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Куртки женские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Куртки мужские</button>
+        <button type="button" class="promo__btn  btn-outline-secondary">Полукомбинезоны зимние</button>
+        <button type="button" class="promo__btn promo__btn-active  btn-outline-secondary">Показать еще</button>
+      </div>
+    </section>
+    <!-- filter-header -->
+    <!-- side-bar -->
+    <!-- catalog -->
+    <div class="container">
+      <div class="row">
+
+        <div class="filter col-2 container-fluid">
+
+
+          <div class="filter__block  col">
+            <div class="filter__title c" data-bs-toggle="collapse" data-bs-target="#a1">Цена</div>
+            <div class="filter__content collapse" id="a1">
+              <div class="filter__element">zdfvzdfv</div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a2">Вид изделия</div>
+            <div class="filter__content collapse" id="a2">
+
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Брюки
+                </label>
+              </div>
+
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="filter__label form-check-label" for="flexCheckChecked">
+                  Жилет
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Костюм
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="filter__label form-check-label" for="flexCheckChecked">
+                  Куртка
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Полукомбинезон
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a3">Сезон</div>
+            <div class="filter__element collapse" id="a3">
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Зима
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a4">Торговая марка / Бренд
+            </div>
+            <div class="filter__element collapse" id="a4">
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  СИРИУС
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a5">Пол</div>
+            <div class="filter__element collapse" id="a5">
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Женский
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="filter__label form-check-label" for="flexCheckChecked">
+                  Мужской
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Универсальный
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a6">Состав</div>
+            <div class="filter__element collapse" id="a6">
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Брюки
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Жилет
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Костюм
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Куртка
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Полукомбинезон
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Полукомбинезон
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__block  col">
+            <div class="filter__title collapsed" data-bs-toggle="collapse" data-bs-target="#a7">Ткань/Материал верха
+            </div>
+            <div class="filter__element collapse" id="a7">
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Брюки
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Жилет
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Костюм
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Куртка
+                </label>
+              </div>
+              <div class="filter__element form-check">
+                <input class="filter__select form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="filter__label form-check-label" for="flexCheckDefault">
+                  Полукомбинезон
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="filter__btn">
+            <button type="button" class="btn btn-light">
+              <p>Показать (123)</p>
+            </button>
+          </div>
+          <div class="filter__reset">Сбросить</div>
+
+
+        </div>
+
+
+
+        <div class="col">
+          <div class="row row-cols-4">
+
+            <div class="card col-3">
+              <img src="./img/man_1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/man_3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card col-3">
+              <img src="./img/woman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-body__art-number">Арт 1232425</p>
+                <p class="card-body__text">Костюм "СИРИУС-Горка" куртка, брюки (гражданские размеры) КМФ Мультикам</p>
+                <span class="card-body__blue-text">Опт 3144 ₽</span>
+                <span class="card-body__red-text">Розница 4235 ₽</span>
+                <div class="card-body__btn">
+                  <a href="#" class="card-body__basket btn btn-light">В корзину</a>
+                  <a href="#" class="card-body__heart-btn btn btn-light"><img src="./img/heart_button.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+
+            <button class="card__btn_show btn btn-light col-12">Показать еще</button>
+
+            <nav aria-label="Page navigation example" class="col-12">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  </section>
+
+  <footer>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="footer__telephone">
+              <a href="tel: +74951234567">+7 (495) 123-45-67</a>
+              <p>Заказать звонок</p>
+            </div>
+            <div class="footer__email">
+              <a href="mailto: info@planeta-sirius.ru">info@planeta-sirius.ru</a>
+            </div>
+            <div class="footer__social">
+              <a href="#"><img src="./img/facebook.svg" alt=""></a>
+              <a href="#"><img src="./img/insta.svg" alt=""></a>
+              <a href=""><img src="./img/VK.svg" alt=""></a>
+            </div>
+            <div class="footer__download">
+              <a href="#" download="" title="всплывающая подсказка"><img src="./img/Exel.svg" alt="">скачать файл</a>
+            </div>
+          </div>
+          <div class="footer__list col-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">каталог</li>
+              <li class="list-group-item">СПЕЦОДЕЖДА</li>
+              <li class="list-group-item">Средства защиты рук</li>
+              <li class="list-group-item">Активный отдых</li>
+              <li class="list-group-item">Хозтовары и постельные принадлежности</li>
+              <li class="list-group-item list-group-item__active">Ликвидация</li>
+            </ul>
+          </div>
+          <div class="footer__list col-3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">обувь</li>
+              <li class="list-group-item">Средства индивидуальной защиты</li>
+              <li class="list-group-item">жилеты на все случаи жизни</li>
+              <li class="list-group-item">линия Plus</li>
+            </ul>
+          </div>
+
+          <div class="col-3">
+            <form>
+              <div class="input-group mb-3">
+                <label for="exampleInputEmail1" class="form-label">Подпишитесь на новости и акции и будьте в курсе
+                  всего!</label>
+                <input type="text" class="form-control" placeholder="Введите свой e-mail"
+                  aria-label="Введите свой e-mail" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="./img/Vector.svg"
+                    alt=""></button>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label form-text" for="exampleCheck1">Я даю согласие на обработку персональных
+                  данных и соглашаюсь с правилами обработки персональных данных.</label>
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="copyright_footer">
+      <div class="container">
+        <p>2021 &copy; PLANETA-SIRIUS.RU</p>
+        <span>Вся приведенная на сайте информация, носят исключительно ознакомительный характер и не является публичной
+          офертой.</span>
+      </div>
+    </section>
+
+  </footer>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
