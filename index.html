@@ -26,19 +26,29 @@
         <p>Пн-Пт с 8:00 - 18:00</p>
       </div>
       <div class="header__social">
-        <a href="#"><img src="./img/facebook.svg" alt=""></a>
-        <a href="#"><img src="./img/insta.svg" alt=""></a>
-        <a href="#"><img src="./img/VK.svg" alt=""></a>
+        <div>
+          <a href="#"><img src="./img/facebook.svg" alt=""></a>
+        </div>
+        <div>
+          <a href="#"><img src="./img/insta.svg" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="./img/VK.svg" alt=""></a>
+        </div>
       </div>
       <div class="header__adress">
         <p>г. Москва</p>
-        <a href="tel: +74957772345">+7 (495) 777-2345</a>
-        <span>Заказать звонок</span>
+        <div class="header__adress_telephone">
+          <a href="tel: +74957772345">+7 (495) 777-2345</a>
+          <span>Заказать звонок</span>
+        </div>
       </div>
       <div class="header__adress">
         <p>г. Ногинск</p>
-        <a href="tel: +74956004400">+7 (495) 600-4400</a>
-        <span>Заказать звонок</span>
+        <div class="header__adress_telephone">
+          <a href="tel: +74956004400">+7 (495) 600-4400</a>
+          <span>Заказать звонок</span>
+        </div>
       </div>
     </header>
     <!-- menu -->
@@ -132,14 +142,13 @@
     <!-- catalog -->
     <div class="container">
       <div class="row">
-
         <div class="filter col-2 container-fluid">
-
-
           <div class="filter__block  col">
             <div class="filter__title c" data-bs-toggle="collapse" data-bs-target="#a1">Цена</div>
             <div class="filter__content collapse" id="a1">
-              <div class="filter__element">zdfvzdfv</div>
+              <div class="filter__element">
+                range-slider
+              </div>
             </div>
           </div>
 
@@ -314,15 +323,10 @@
             </button>
           </div>
           <div class="filter__reset">Сбросить</div>
-
-
         </div>
-
-
 
         <div class="col">
           <div class="row row-cols-4">
-
             <div class="card col-3">
               <img src="./img/man_1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -603,39 +607,35 @@
               </div>
             </div>
 
-            <button class="card__btn_show btn btn-light col-12">Показать еще</button>
+            <button class="card__btn_show btn-light col-12" style="padding: 15px;"><a href="">Показать еще</a></button>
 
             <nav aria-label="Page navigation example" class="col-12">
               <ul class="pagination">
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
+                    <span aria-hidden="true"><img src="./img/Vector-left.svg" alt=""></span>
                   </a>
                 </li>
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">Все</a></li>
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
+                    <span aria-hidden="true"><img src="./img/Vector-right.svg" alt=""></span>
                   </a>
                 </li>
               </ul>
             </nav>
-
           </div>
         </div>
       </div>
     </div>
-
-
-
   </div>
   </section>
 
   <footer>
-
     <section class="footer">
       <div class="container">
         <div class="row">
@@ -648,30 +648,37 @@
               <a href="mailto: info@planeta-sirius.ru">info@planeta-sirius.ru</a>
             </div>
             <div class="footer__social">
-              <a href="#"><img src="./img/facebook.svg" alt=""></a>
-              <a href="#"><img src="./img/insta.svg" alt=""></a>
-              <a href=""><img src="./img/VK.svg" alt=""></a>
+              <div>
+                <a href="#"><img src="./img/facebook.svg" alt=""></a>
+              </div>
+              <div>
+                <a href="#"><img src="./img/insta.svg" alt=""></a>
+              </div>
+              <div>
+                <a href=""><img src="./img/VK.svg" alt=""></a>
+              </div>
             </div>
             <div class="footer__download">
-              <a href="#" download="" title="всплывающая подсказка"><img src="./img/Exel.svg" alt="">скачать файл</a>
+              <a href="#" download="" title="всплывающая подсказка"><img src="./img/Exel.svg" alt="">Скачать
+                прайс-лист</a>
             </div>
           </div>
           <div class="footer__list col-3">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">каталог</li>
-              <li class="list-group-item">СПЕЦОДЕЖДА</li>
-              <li class="list-group-item">Средства защиты рук</li>
-              <li class="list-group-item">Активный отдых</li>
-              <li class="list-group-item">Хозтовары и постельные принадлежности</li>
-              <li class="list-group-item list-group-item__active">Ликвидация</li>
+              <li class="list-group-item"><a href="">каталог</a></li>
+              <li class="list-group-item"><a href="">СПЕЦОДЕЖДА</a></li>
+              <li class="list-group-item"><a href="">Средства защиты рук</a></li>
+              <li class="list-group-item"><a href="">Активный отдых</a></li>
+              <li class="list-group-item"><a href="">Хозтовары и постельные принадлежности</a></li>
+              <li class="list-group-item list-group-item__active"><a href="">Ликвидация</a></li>
             </ul>
           </div>
           <div class="footer__list col-3">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">обувь</li>
-              <li class="list-group-item">Средства индивидуальной защиты</li>
-              <li class="list-group-item">жилеты на все случаи жизни</li>
-              <li class="list-group-item">линия Plus</li>
+              <li class="list-group-item"><a href="">обувь</a></li>
+              <li class="list-group-item"><a href="">Средства индивидуальной защиты</a></li>
+              <li class="list-group-item"><a href=""> жилеты на все случаи жизни</a></li>
+              <li class="list-group-item"><a href="">линия Plus</a></li>
             </ul>
           </div>
 
@@ -693,7 +700,6 @@
             </form>
           </div>
 
-
         </div>
       </div>
       </div>
@@ -713,7 +719,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
